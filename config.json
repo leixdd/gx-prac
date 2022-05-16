@@ -58,7 +58,7 @@
   },
   "DispatchServer": {
     "Ip": "0.0.0.0",
-    "PublicIp": "127.0.0.1",
+    "PublicIp": "139.177.184.135",
     "Port": 443,
     "PublicPort": 0,
     "KeystorePath": "./keystore.p12",
