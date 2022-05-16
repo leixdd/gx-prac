@@ -1,0 +1,1164 @@
+2022-05-12T00:11:05Z - Failed to load language file: en-PH.json, falling back to: en.json
+2022-05-12T00:11:05Z - Failed to load language file: en.json, falling back to: en-US.json
+2022-05-12T00:11:25Z - Invalid option. Will use EN(English) as fallback
+2022-05-12T00:11:25Z - Loaded 47 FetterCharacterCardDatas.
+2022-05-12T00:11:25Z - Loaded 300 AvatarTalentDatas.
+2022-05-12T00:11:25Z - Loaded 400 AvatarSkillDatas.
+2022-05-12T00:11:26Z - Loaded 4088 FetterDatas.
+2022-05-12T00:11:26Z - Loaded 73 AvatarSkillDepotDatas.
+2022-05-12T00:11:26Z - Loaded 167 MonsterDescribeDatas.
+2022-05-12T00:11:26Z - Loaded 657 RewardPreviewDatas.
+2022-05-12T00:11:26Z - Loaded 39 TowerFloorDatas.
+2022-05-12T00:11:26Z - Loaded 1 AvatarCostumeDatas.
+2022-05-12T00:11:26Z - Loaded 782 DungeonDatas.
+2022-05-12T00:11:26Z - Loaded 10 AvatarFetterLevelDatas.
+2022-05-12T00:11:26Z - Loaded 24 DailyDungeonDatas.
+2022-05-12T00:11:27Z - Loaded 3032 NpcDatas.
+2022-05-12T00:11:27Z - Loaded 66 ReliquaryMainPropDatas.
+2022-05-12T00:11:27Z - Error loading resource file: [MonsterCurveExcelConfigData.json]
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:225)
+	at com.google.gson.Gson.fromJson(Gson.java:991)
+	at com.google.gson.Gson.fromJson(Gson.java:956)
+	at com.google.gson.Gson.fromJson(Gson.java:905)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:130)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:117)
+	at emu.grasscutter.data.ResourceLoader.loadResources(ResourceLoader.java:107)
+	at emu.grasscutter.tools.ToolsWithLanguageOption.createGmHandbook(Tools.java:98)
+	at emu.grasscutter.tools.Tools.createGmHandbook(Tools.java:35)
+	at emu.grasscutter.Grasscutter.main(Grasscutter.java:77)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:172)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:130)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:221)
+	... 9 common frames omitted
+2022-05-12T00:11:27Z - Loaded 717 SceneDatas.
+2022-05-12T00:11:27Z - Loaded 90 AvatarLevelDatas.
+2022-05-12T00:11:28Z - Loaded 4065 RewardDatas.
+2022-05-12T00:11:30Z - Loaded 6889 ItemDatas.
+2022-05-12T00:11:30Z - Loaded 336 AvatarPromoteDatas.
+2022-05-12T00:11:30Z - Loaded 335 ReliquaryAffixDatas.
+2022-05-12T00:11:30Z - Loaded 90 WeaponLevelDatas.
+2022-05-12T00:11:30Z - Loaded 1195 ShopGoodsDatas.
+2022-05-12T00:11:30Z - Loaded 297 CombineDatas.
+2022-05-12T00:11:30Z - Loaded 1 TowerLevelDatas.
+2022-05-12T00:11:30Z - Loaded 939 WeaponPromoteDatas.
+2022-05-12T00:11:30Z - Loaded 9 AvatarFlycloakDatas.
+2022-05-12T00:11:32Z - Loaded 6626 GadgetDatas.
+2022-05-12T00:11:32Z - Error loading resource file: [AvatarCurveExcelConfigData.json]
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:225)
+	at com.google.gson.Gson.fromJson(Gson.java:991)
+	at com.google.gson.Gson.fromJson(Gson.java:956)
+	at com.google.gson.Gson.fromJson(Gson.java:905)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:130)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:117)
+	at emu.grasscutter.data.ResourceLoader.loadResources(ResourceLoader.java:107)
+	at emu.grasscutter.tools.ToolsWithLanguageOption.createGmHandbook(Tools.java:98)
+	at emu.grasscutter.tools.Tools.createGmHandbook(Tools.java:35)
+	at emu.grasscutter.Grasscutter.main(Grasscutter.java:77)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:172)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:130)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:221)
+	... 9 common frames omitted
+2022-05-12T00:11:32Z - Loaded 42 ReliquarySetDatas.
+2022-05-12T00:11:32Z - Error loading resource file: [WeaponCurveExcelConfigData.json]
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:225)
+	at com.google.gson.Gson.fromJson(Gson.java:991)
+	at com.google.gson.Gson.fromJson(Gson.java:956)
+	at com.google.gson.Gson.fromJson(Gson.java:905)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:130)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:117)
+	at emu.grasscutter.data.ResourceLoader.loadResources(ResourceLoader.java:107)
+	at emu.grasscutter.tools.ToolsWithLanguageOption.createGmHandbook(Tools.java:98)
+	at emu.grasscutter.tools.Tools.createGmHandbook(Tools.java:35)
+	at emu.grasscutter.Grasscutter.main(Grasscutter.java:77)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:172)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:130)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:221)
+	... 9 common frames omitted
+2022-05-12T00:11:32Z - Loaded 744 EquipAffixDatas.
+2022-05-12T00:11:32Z - Loaded 8 WorldLevelDatas.
+2022-05-12T00:11:32Z - Loaded 60 PlayerLevelDatas.
+2022-05-12T00:11:32Z - Loaded 101 ReliquaryLevelDatas.
+2022-05-12T00:11:32Z - Loaded 2420 ProudSkillDatas.
+2022-05-12T00:11:33Z - Loaded 568 MonsterDatas.
+2022-05-12T00:11:33Z - Loaded 78 AvatarDatas.
+2022-05-12T00:11:33Z - GM Handbook generated!
+2022-05-12T00:11:50Z - Failed to load language file: en-PH.json, falling back to: en.json
+2022-05-12T00:11:51Z - Failed to load language file: en.json, falling back to: en-US.json
+2022-05-12T00:11:51Z - Starting Grasscutter...
+2022-05-12T00:11:51Z - Loaded 47 FetterCharacterCardDatas.
+2022-05-12T00:11:51Z - Loaded 300 AvatarTalentDatas.
+2022-05-12T00:11:51Z - Loaded 400 AvatarSkillDatas.
+2022-05-12T00:11:52Z - Loaded 4088 FetterDatas.
+2022-05-12T00:11:52Z - Loaded 73 AvatarSkillDepotDatas.
+2022-05-12T00:11:52Z - Loaded 167 MonsterDescribeDatas.
+2022-05-12T00:11:52Z - Loaded 657 RewardPreviewDatas.
+2022-05-12T00:11:52Z - Loaded 39 TowerFloorDatas.
+2022-05-12T00:11:52Z - Loaded 1 AvatarCostumeDatas.
+2022-05-12T00:11:52Z - Loaded 782 DungeonDatas.
+2022-05-12T00:11:52Z - Loaded 10 AvatarFetterLevelDatas.
+2022-05-12T00:11:52Z - Loaded 24 DailyDungeonDatas.
+2022-05-12T00:11:52Z - Loaded 3032 NpcDatas.
+2022-05-12T00:11:52Z - Loaded 66 ReliquaryMainPropDatas.
+2022-05-12T00:11:52Z - Error loading resource file: [MonsterCurveExcelConfigData.json]
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:225)
+	at com.google.gson.Gson.fromJson(Gson.java:991)
+	at com.google.gson.Gson.fromJson(Gson.java:956)
+	at com.google.gson.Gson.fromJson(Gson.java:905)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:130)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:117)
+	at emu.grasscutter.data.ResourceLoader.loadResources(ResourceLoader.java:107)
+	at emu.grasscutter.data.ResourceLoader.loadAll(ResourceLoader.java:51)
+	at emu.grasscutter.Grasscutter.main(Grasscutter.java:93)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:172)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:130)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:221)
+	... 8 common frames omitted
+2022-05-12T00:11:52Z - Loaded 717 SceneDatas.
+2022-05-12T00:11:52Z - Loaded 90 AvatarLevelDatas.
+2022-05-12T00:11:52Z - Loaded 4065 RewardDatas.
+2022-05-12T00:11:52Z - Loaded 6889 ItemDatas.
+2022-05-12T00:11:52Z - Loaded 336 AvatarPromoteDatas.
+2022-05-12T00:11:52Z - Loaded 335 ReliquaryAffixDatas.
+2022-05-12T00:11:52Z - Loaded 90 WeaponLevelDatas.
+2022-05-12T00:11:52Z - Loaded 1195 ShopGoodsDatas.
+2022-05-12T00:11:52Z - Loaded 297 CombineDatas.
+2022-05-12T00:11:52Z - Loaded 1 TowerLevelDatas.
+2022-05-12T00:11:52Z - Loaded 939 WeaponPromoteDatas.
+2022-05-12T00:11:52Z - Loaded 9 AvatarFlycloakDatas.
+2022-05-12T00:11:53Z - Loaded 6626 GadgetDatas.
+2022-05-12T00:11:53Z - Error loading resource file: [AvatarCurveExcelConfigData.json]
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:225)
+	at com.google.gson.Gson.fromJson(Gson.java:991)
+	at com.google.gson.Gson.fromJson(Gson.java:956)
+	at com.google.gson.Gson.fromJson(Gson.java:905)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:130)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:117)
+	at emu.grasscutter.data.ResourceLoader.loadResources(ResourceLoader.java:107)
+	at emu.grasscutter.data.ResourceLoader.loadAll(ResourceLoader.java:51)
+	at emu.grasscutter.Grasscutter.main(Grasscutter.java:93)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:172)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:130)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:221)
+	... 8 common frames omitted
+2022-05-12T00:11:53Z - Loaded 42 ReliquarySetDatas.
+2022-05-12T00:11:53Z - Error loading resource file: [WeaponCurveExcelConfigData.json]
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:225)
+	at com.google.gson.Gson.fromJson(Gson.java:991)
+	at com.google.gson.Gson.fromJson(Gson.java:956)
+	at com.google.gson.Gson.fromJson(Gson.java:905)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:130)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:117)
+	at emu.grasscutter.data.ResourceLoader.loadResources(ResourceLoader.java:107)
+	at emu.grasscutter.data.ResourceLoader.loadAll(ResourceLoader.java:51)
+	at emu.grasscutter.Grasscutter.main(Grasscutter.java:93)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:172)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:130)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:221)
+	... 8 common frames omitted
+2022-05-12T00:11:53Z - Loaded 744 EquipAffixDatas.
+2022-05-12T00:11:53Z - Loaded 8 WorldLevelDatas.
+2022-05-12T00:11:53Z - Loaded 60 PlayerLevelDatas.
+2022-05-12T00:11:53Z - Loaded 101 ReliquaryLevelDatas.
+2022-05-12T00:11:53Z - Loaded 2420 ProudSkillDatas.
+2022-05-12T00:11:53Z - Loaded 568 MonsterDatas.
+2022-05-12T00:11:53Z - Loaded 78 AvatarDatas.
+2022-05-12T00:11:53Z - Relic properties are missing weights! Please check your ReliquaryMainPropExcelConfigData or ReliquaryAffixExcelConfigData files in your ExcelBinOutput folder.
+2022-05-12T00:11:55Z - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-12T00:11:55Z - Opened connection [connectionId{localValue:1, serverValue:2}] to localhost:27017
+2022-05-12T00:11:55Z - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=19361200}
+2022-05-12T00:11:55Z - Opened connection [connectionId{localValue:2, serverValue:3}] to localhost:27017
+2022-05-12T00:11:55Z - Opened connection [connectionId{localValue:3, serverValue:4}] to localhost:27017
+2022-05-12T00:11:57Z - Registered 120 PacketHandlers
+2022-05-12T00:11:57Z - Banners successfully loaded.
+2022-05-12T00:11:57Z - Shop data successfully loaded.
+2022-05-12T00:11:57Z - ShopChest data successfully loaded.
+2022-05-12T00:11:57Z - ShopChestBatchUse data successfully loaded.
+2022-05-12T00:11:57Z - Using default implementation for ThreadExecutor
+2022-05-12T00:11:57Z - Job execution threads will use class loader of thread: main
+2022-05-12T00:11:57Z - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-05-12T00:11:57Z - Quartz Scheduler v.2.3.2 created.
+2022-05-12T00:11:57Z - RAMJobStore initialized.
+2022-05-12T00:11:57Z - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-05-12T00:11:57Z - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-05-12T00:11:57Z - Quartz scheduler version: 2.3.2
+2022-05-12T00:11:57Z - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-05-12T00:11:58Z - Drop data successfully loaded.
+2022-05-12T00:11:58Z - Expedition reward successfully loaded.
+2022-05-12T00:11:58Z - Logging initialized @8278ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-05-12T00:11:59Z - Invalid option. Will use EN(English) as fallback
+2022-05-12T00:11:59Z - Loaded 47 FetterCharacterCardDatas.
+2022-05-12T00:11:59Z - Loaded 300 AvatarTalentDatas.
+2022-05-12T00:11:59Z - Loaded 400 AvatarSkillDatas.
+2022-05-12T00:12:00Z - Loaded 4088 FetterDatas.
+2022-05-12T00:12:00Z - Loaded 73 AvatarSkillDepotDatas.
+2022-05-12T00:12:00Z - Loaded 167 MonsterDescribeDatas.
+2022-05-12T00:12:00Z - Loaded 657 RewardPreviewDatas.
+2022-05-12T00:12:00Z - Loaded 39 TowerFloorDatas.
+2022-05-12T00:12:00Z - Loaded 1 AvatarCostumeDatas.
+2022-05-12T00:12:00Z - Loaded 782 DungeonDatas.
+2022-05-12T00:12:00Z - Loaded 10 AvatarFetterLevelDatas.
+2022-05-12T00:12:00Z - Loaded 24 DailyDungeonDatas.
+2022-05-12T00:12:00Z - Loaded 3032 NpcDatas.
+2022-05-12T00:12:00Z - Loaded 66 ReliquaryMainPropDatas.
+2022-05-12T00:12:00Z - Error loading resource file: [MonsterCurveExcelConfigData.json]
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:225)
+	at com.google.gson.Gson.fromJson(Gson.java:991)
+	at com.google.gson.Gson.fromJson(Gson.java:956)
+	at com.google.gson.Gson.fromJson(Gson.java:905)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:130)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:117)
+	at emu.grasscutter.data.ResourceLoader.loadResources(ResourceLoader.java:107)
+	at emu.grasscutter.tools.ToolsWithLanguageOption.createGachaMapping(Tools.java:176)
+	at emu.grasscutter.tools.Tools.createGachaMapping(Tools.java:39)
+	at emu.grasscutter.server.dispatch.DispatchServer.start(DispatchServer.java:457)
+	at emu.grasscutter.Grasscutter.main(Grasscutter.java:109)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:172)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:130)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:221)
+	... 10 common frames omitted
+2022-05-12T00:12:00Z - Loaded 717 SceneDatas.
+2022-05-12T00:12:00Z - Loaded 90 AvatarLevelDatas.
+2022-05-12T00:12:00Z - Loaded 4065 RewardDatas.
+2022-05-12T00:12:00Z - Loaded 6889 ItemDatas.
+2022-05-12T00:12:00Z - Loaded 336 AvatarPromoteDatas.
+2022-05-12T00:12:00Z - Loaded 335 ReliquaryAffixDatas.
+2022-05-12T00:12:00Z - Loaded 90 WeaponLevelDatas.
+2022-05-12T00:12:00Z - Loaded 1195 ShopGoodsDatas.
+2022-05-12T00:12:00Z - Loaded 297 CombineDatas.
+2022-05-12T00:12:00Z - Loaded 1 TowerLevelDatas.
+2022-05-12T00:12:00Z - Loaded 939 WeaponPromoteDatas.
+2022-05-12T00:12:00Z - Loaded 9 AvatarFlycloakDatas.
+2022-05-12T00:12:01Z - Loaded 6626 GadgetDatas.
+2022-05-12T00:12:01Z - Error loading resource file: [AvatarCurveExcelConfigData.json]
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:225)
+	at com.google.gson.Gson.fromJson(Gson.java:991)
+	at com.google.gson.Gson.fromJson(Gson.java:956)
+	at com.google.gson.Gson.fromJson(Gson.java:905)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:130)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:117)
+	at emu.grasscutter.data.ResourceLoader.loadResources(ResourceLoader.java:107)
+	at emu.grasscutter.tools.ToolsWithLanguageOption.createGachaMapping(Tools.java:176)
+	at emu.grasscutter.tools.Tools.createGachaMapping(Tools.java:39)
+	at emu.grasscutter.server.dispatch.DispatchServer.start(DispatchServer.java:457)
+	at emu.grasscutter.Grasscutter.main(Grasscutter.java:109)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:172)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:130)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:221)
+	... 10 common frames omitted
+2022-05-12T00:12:01Z - Loaded 42 ReliquarySetDatas.
+2022-05-12T00:12:01Z - Error loading resource file: [WeaponCurveExcelConfigData.json]
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:225)
+	at com.google.gson.Gson.fromJson(Gson.java:991)
+	at com.google.gson.Gson.fromJson(Gson.java:956)
+	at com.google.gson.Gson.fromJson(Gson.java:905)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:130)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:117)
+	at emu.grasscutter.data.ResourceLoader.loadResources(ResourceLoader.java:107)
+	at emu.grasscutter.tools.ToolsWithLanguageOption.createGachaMapping(Tools.java:176)
+	at emu.grasscutter.tools.Tools.createGachaMapping(Tools.java:39)
+	at emu.grasscutter.server.dispatch.DispatchServer.start(DispatchServer.java:457)
+	at emu.grasscutter.Grasscutter.main(Grasscutter.java:109)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:172)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:130)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:221)
+	... 10 common frames omitted
+2022-05-12T00:12:01Z - Loaded 744 EquipAffixDatas.
+2022-05-12T00:12:01Z - Loaded 8 WorldLevelDatas.
+2022-05-12T00:12:01Z - Loaded 60 PlayerLevelDatas.
+2022-05-12T00:12:01Z - Loaded 101 ReliquaryLevelDatas.
+2022-05-12T00:12:01Z - Loaded 2420 ProudSkillDatas.
+2022-05-12T00:12:01Z - Loaded 568 MonsterDatas.
+2022-05-12T00:12:01Z - Loaded 78 AvatarDatas.
+2022-05-12T00:12:01Z - Mappings generated to .\data\\gacha_mappings.js !
+2022-05-12T00:12:01Z - jetty-9.4.35.v20201120; built: 2020-11-20T21:17:03.964Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 18+37
+2022-05-12T00:12:02Z - x509=X509@52433946(keystore_entry,h=[mydomain.com, localhost],w=[]) for Server@5403431a[provider=null,keyStore=file:///E:/Grasscutter/gx/keystore.p12,trustStore=null]
+2022-05-12T00:12:02Z - Started ServerConnector@54567b05{SSL, (ssl, http/1.1)}{0.0.0.0:443}
+2022-05-12T00:12:02Z - Started @12362ms
+2022-05-12T00:12:02Z - Server listening on http://localhost:443
+2022-05-12T00:12:02Z - [Dispatch] Dispatch server started on port 443
+2022-05-12T00:12:02Z - Done! For help, type "help"
+2022-05-12T00:12:02Z - Grasscutter is FREE software. If you have paid for this, you may have been scammed. Homepage: https://github.com/Grasscutters/Grasscutter
+2022-05-12T00:12:02Z - Game Server started on port 22102
+2022-05-12T00:12:31Z - Press Ctrl-C again to shutdown.
+2022-05-12T00:12:33Z - Stopping Javalin ...
+2022-05-12T00:12:33Z - Stopped ServerConnector@54567b05{SSL, (ssl, http/1.1)}{0.0.0.0:443}
+2022-05-12T00:12:33Z - Javalin has stopped
+2022-05-12T00:12:37Z - Failed to load language file: en-PH.json, falling back to: en.json
+2022-05-12T00:12:37Z - Failed to load language file: en.json, falling back to: en-US.json
+2022-05-12T00:12:39Z - Invalid option. Will use EN(English) as fallback
+2022-05-12T00:12:39Z - Loaded 47 FetterCharacterCardDatas.
+2022-05-12T00:12:39Z - Loaded 300 AvatarTalentDatas.
+2022-05-12T00:12:39Z - Loaded 400 AvatarSkillDatas.
+2022-05-12T00:12:39Z - Loaded 4088 FetterDatas.
+2022-05-12T00:12:39Z - Loaded 73 AvatarSkillDepotDatas.
+2022-05-12T00:12:39Z - Loaded 167 MonsterDescribeDatas.
+2022-05-12T00:12:39Z - Loaded 657 RewardPreviewDatas.
+2022-05-12T00:12:39Z - Loaded 39 TowerFloorDatas.
+2022-05-12T00:12:39Z - Loaded 1 AvatarCostumeDatas.
+2022-05-12T00:12:39Z - Loaded 782 DungeonDatas.
+2022-05-12T00:12:39Z - Loaded 10 AvatarFetterLevelDatas.
+2022-05-12T00:12:39Z - Loaded 24 DailyDungeonDatas.
+2022-05-12T00:12:39Z - Loaded 3032 NpcDatas.
+2022-05-12T00:12:39Z - Loaded 66 ReliquaryMainPropDatas.
+2022-05-12T00:12:39Z - Error loading resource file: [MonsterCurveExcelConfigData.json]
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:225)
+	at com.google.gson.Gson.fromJson(Gson.java:991)
+	at com.google.gson.Gson.fromJson(Gson.java:956)
+	at com.google.gson.Gson.fromJson(Gson.java:905)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:130)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:117)
+	at emu.grasscutter.data.ResourceLoader.loadResources(ResourceLoader.java:107)
+	at emu.grasscutter.tools.ToolsWithLanguageOption.createGmHandbook(Tools.java:98)
+	at emu.grasscutter.tools.Tools.createGmHandbook(Tools.java:35)
+	at emu.grasscutter.Grasscutter.main(Grasscutter.java:77)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:172)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:130)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:221)
+	... 9 common frames omitted
+2022-05-12T00:12:39Z - Loaded 717 SceneDatas.
+2022-05-12T00:12:39Z - Loaded 90 AvatarLevelDatas.
+2022-05-12T00:12:39Z - Loaded 4065 RewardDatas.
+2022-05-12T00:12:40Z - Loaded 6889 ItemDatas.
+2022-05-12T00:12:40Z - Loaded 336 AvatarPromoteDatas.
+2022-05-12T00:12:40Z - Loaded 335 ReliquaryAffixDatas.
+2022-05-12T00:12:40Z - Loaded 90 WeaponLevelDatas.
+2022-05-12T00:12:40Z - Loaded 1195 ShopGoodsDatas.
+2022-05-12T00:12:40Z - Loaded 297 CombineDatas.
+2022-05-12T00:12:40Z - Loaded 1 TowerLevelDatas.
+2022-05-12T00:12:40Z - Loaded 939 WeaponPromoteDatas.
+2022-05-12T00:12:40Z - Loaded 9 AvatarFlycloakDatas.
+2022-05-12T00:12:40Z - Loaded 6626 GadgetDatas.
+2022-05-12T00:12:40Z - Error loading resource file: [AvatarCurveExcelConfigData.json]
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:225)
+	at com.google.gson.Gson.fromJson(Gson.java:991)
+	at com.google.gson.Gson.fromJson(Gson.java:956)
+	at com.google.gson.Gson.fromJson(Gson.java:905)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:130)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:117)
+	at emu.grasscutter.data.ResourceLoader.loadResources(ResourceLoader.java:107)
+	at emu.grasscutter.tools.ToolsWithLanguageOption.createGmHandbook(Tools.java:98)
+	at emu.grasscutter.tools.Tools.createGmHandbook(Tools.java:35)
+	at emu.grasscutter.Grasscutter.main(Grasscutter.java:77)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:172)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:130)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:221)
+	... 9 common frames omitted
+2022-05-12T00:12:40Z - Loaded 42 ReliquarySetDatas.
+2022-05-12T00:12:40Z - Error loading resource file: [WeaponCurveExcelConfigData.json]
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:225)
+	at com.google.gson.Gson.fromJson(Gson.java:991)
+	at com.google.gson.Gson.fromJson(Gson.java:956)
+	at com.google.gson.Gson.fromJson(Gson.java:905)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:130)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:117)
+	at emu.grasscutter.data.ResourceLoader.loadResources(ResourceLoader.java:107)
+	at emu.grasscutter.tools.ToolsWithLanguageOption.createGmHandbook(Tools.java:98)
+	at emu.grasscutter.tools.Tools.createGmHandbook(Tools.java:35)
+	at emu.grasscutter.Grasscutter.main(Grasscutter.java:77)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:172)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:130)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:221)
+	... 9 common frames omitted
+2022-05-12T00:12:40Z - Loaded 744 EquipAffixDatas.
+2022-05-12T00:12:40Z - Loaded 8 WorldLevelDatas.
+2022-05-12T00:12:40Z - Loaded 60 PlayerLevelDatas.
+2022-05-12T00:12:40Z - Loaded 101 ReliquaryLevelDatas.
+2022-05-12T00:12:40Z - Loaded 2420 ProudSkillDatas.
+2022-05-12T00:12:40Z - Loaded 568 MonsterDatas.
+2022-05-12T00:12:40Z - Loaded 78 AvatarDatas.
+2022-05-12T00:12:41Z - GM Handbook generated!
+2022-05-12T00:12:53Z - Failed to load language file: en-PH.json, falling back to: en.json
+2022-05-12T00:12:54Z - Failed to load language file: en.json, falling back to: en-US.json
+2022-05-12T00:12:54Z - Starting Grasscutter...
+2022-05-12T00:12:54Z - Loaded 47 FetterCharacterCardDatas.
+2022-05-12T00:12:54Z - Loaded 300 AvatarTalentDatas.
+2022-05-12T00:12:54Z - Loaded 400 AvatarSkillDatas.
+2022-05-12T00:12:54Z - Loaded 4088 FetterDatas.
+2022-05-12T00:12:54Z - Loaded 73 AvatarSkillDepotDatas.
+2022-05-12T00:12:54Z - Loaded 167 MonsterDescribeDatas.
+2022-05-12T00:12:54Z - Loaded 657 RewardPreviewDatas.
+2022-05-12T00:12:54Z - Loaded 39 TowerFloorDatas.
+2022-05-12T00:12:54Z - Loaded 1 AvatarCostumeDatas.
+2022-05-12T00:12:54Z - Loaded 782 DungeonDatas.
+2022-05-12T00:12:54Z - Loaded 10 AvatarFetterLevelDatas.
+2022-05-12T00:12:54Z - Loaded 24 DailyDungeonDatas.
+2022-05-12T00:12:54Z - Loaded 3032 NpcDatas.
+2022-05-12T00:12:54Z - Loaded 66 ReliquaryMainPropDatas.
+2022-05-12T00:12:54Z - Error loading resource file: [MonsterCurveExcelConfigData.json]
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:225)
+	at com.google.gson.Gson.fromJson(Gson.java:991)
+	at com.google.gson.Gson.fromJson(Gson.java:956)
+	at com.google.gson.Gson.fromJson(Gson.java:905)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:130)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:117)
+	at emu.grasscutter.data.ResourceLoader.loadResources(ResourceLoader.java:107)
+	at emu.grasscutter.data.ResourceLoader.loadAll(ResourceLoader.java:51)
+	at emu.grasscutter.Grasscutter.main(Grasscutter.java:93)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:172)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:130)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:221)
+	... 8 common frames omitted
+2022-05-12T00:12:54Z - Loaded 717 SceneDatas.
+2022-05-12T00:12:54Z - Loaded 90 AvatarLevelDatas.
+2022-05-12T00:12:55Z - Loaded 4065 RewardDatas.
+2022-05-12T00:12:55Z - Loaded 6889 ItemDatas.
+2022-05-12T00:12:55Z - Loaded 336 AvatarPromoteDatas.
+2022-05-12T00:12:55Z - Loaded 335 ReliquaryAffixDatas.
+2022-05-12T00:12:55Z - Loaded 90 WeaponLevelDatas.
+2022-05-12T00:12:55Z - Loaded 1195 ShopGoodsDatas.
+2022-05-12T00:12:55Z - Loaded 297 CombineDatas.
+2022-05-12T00:12:55Z - Loaded 1 TowerLevelDatas.
+2022-05-12T00:12:55Z - Loaded 939 WeaponPromoteDatas.
+2022-05-12T00:12:55Z - Loaded 9 AvatarFlycloakDatas.
+2022-05-12T00:12:55Z - Loaded 6626 GadgetDatas.
+2022-05-12T00:12:55Z - Error loading resource file: [AvatarCurveExcelConfigData.json]
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:225)
+	at com.google.gson.Gson.fromJson(Gson.java:991)
+	at com.google.gson.Gson.fromJson(Gson.java:956)
+	at com.google.gson.Gson.fromJson(Gson.java:905)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:130)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:117)
+	at emu.grasscutter.data.ResourceLoader.loadResources(ResourceLoader.java:107)
+	at emu.grasscutter.data.ResourceLoader.loadAll(ResourceLoader.java:51)
+	at emu.grasscutter.Grasscutter.main(Grasscutter.java:93)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:172)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:130)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:221)
+	... 8 common frames omitted
+2022-05-12T00:12:55Z - Loaded 42 ReliquarySetDatas.
+2022-05-12T00:12:55Z - Error loading resource file: [WeaponCurveExcelConfigData.json]
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:225)
+	at com.google.gson.Gson.fromJson(Gson.java:991)
+	at com.google.gson.Gson.fromJson(Gson.java:956)
+	at com.google.gson.Gson.fromJson(Gson.java:905)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:130)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:117)
+	at emu.grasscutter.data.ResourceLoader.loadResources(ResourceLoader.java:107)
+	at emu.grasscutter.data.ResourceLoader.loadAll(ResourceLoader.java:51)
+	at emu.grasscutter.Grasscutter.main(Grasscutter.java:93)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:172)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:130)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:221)
+	... 8 common frames omitted
+2022-05-12T00:12:55Z - Loaded 744 EquipAffixDatas.
+2022-05-12T00:12:55Z - Loaded 8 WorldLevelDatas.
+2022-05-12T00:12:55Z - Loaded 60 PlayerLevelDatas.
+2022-05-12T00:12:55Z - Loaded 101 ReliquaryLevelDatas.
+2022-05-12T00:12:55Z - Loaded 2420 ProudSkillDatas.
+2022-05-12T00:12:55Z - Loaded 568 MonsterDatas.
+2022-05-12T00:12:56Z - Loaded 78 AvatarDatas.
+2022-05-12T00:12:56Z - Relic properties are missing weights! Please check your ReliquaryMainPropExcelConfigData or ReliquaryAffixExcelConfigData files in your ExcelBinOutput folder.
+2022-05-12T00:12:56Z - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-12T00:12:56Z - Opened connection [connectionId{localValue:1, serverValue:5}] to localhost:27017
+2022-05-12T00:12:56Z - Opened connection [connectionId{localValue:2, serverValue:6}] to localhost:27017
+2022-05-12T00:12:56Z - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=21072500}
+2022-05-12T00:12:56Z - Opened connection [connectionId{localValue:3, serverValue:7}] to localhost:27017
+2022-05-12T00:12:56Z - Registered 120 PacketHandlers
+2022-05-12T00:12:56Z - Banners successfully loaded.
+2022-05-12T00:12:56Z - Shop data successfully loaded.
+2022-05-12T00:12:56Z - ShopChest data successfully loaded.
+2022-05-12T00:12:56Z - ShopChestBatchUse data successfully loaded.
+2022-05-12T00:12:56Z - Using default implementation for ThreadExecutor
+2022-05-12T00:12:56Z - Job execution threads will use class loader of thread: main
+2022-05-12T00:12:56Z - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-05-12T00:12:56Z - Quartz Scheduler v.2.3.2 created.
+2022-05-12T00:12:56Z - RAMJobStore initialized.
+2022-05-12T00:12:56Z - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-05-12T00:12:56Z - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-05-12T00:12:56Z - Quartz scheduler version: 2.3.2
+2022-05-12T00:12:56Z - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-05-12T00:12:56Z - Drop data successfully loaded.
+2022-05-12T00:12:56Z - Expedition reward successfully loaded.
+2022-05-12T00:12:56Z - Logging initialized @3708ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-05-12T00:12:56Z - jetty-9.4.35.v20201120; built: 2020-11-20T21:17:03.964Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 18+37
+2022-05-12T00:12:57Z - x509=X509@12448de1(keystore_entry,h=[mydomain.com, localhost],w=[]) for Server@2b35c7aa[provider=null,keyStore=file:///E:/Grasscutter/gx/keystore.p12,trustStore=null]
+2022-05-12T00:12:57Z - Started ServerConnector@54567b05{SSL, (ssl, http/1.1)}{0.0.0.0:443}
+2022-05-12T00:12:57Z - Started @4146ms
+2022-05-12T00:12:57Z - Server listening on http://localhost:443
+2022-05-12T00:12:57Z - [Dispatch] Dispatch server started on port 443
+2022-05-12T00:12:57Z - Done! For help, type "help"
+2022-05-12T00:12:57Z - Grasscutter is FREE software. If you have paid for this, you may have been scammed. Homepage: https://github.com/Grasscutters/Grasscutter
+2022-05-12T00:12:57Z - Game Server started on port 22102
+2022-05-12T00:13:05Z - Account created with UID 0.
+2022-05-12T00:37:30Z - Press Ctrl-C again to shutdown.
+2022-05-12T00:37:30Z - Stopping Javalin ...
+2022-05-12T00:37:30Z - Stopped ServerConnector@54567b05{SSL, (ssl, http/1.1)}{0.0.0.0:443}
+2022-05-12T00:37:30Z - Javalin has stopped
+2022-05-12T00:37:32Z - Failed to load language file: en-PH.json, falling back to: en.json
+2022-05-12T00:37:33Z - Failed to load language file: en.json, falling back to: en-US.json
+2022-05-12T00:37:33Z - Starting Grasscutter...
+2022-05-12T00:37:33Z - Loaded 47 FetterCharacterCardDatas.
+2022-05-12T00:37:33Z - Loaded 300 AvatarTalentDatas.
+2022-05-12T00:37:33Z - Loaded 400 AvatarSkillDatas.
+2022-05-12T00:37:33Z - Loaded 4088 FetterDatas.
+2022-05-12T00:37:33Z - Loaded 73 AvatarSkillDepotDatas.
+2022-05-12T00:37:33Z - Loaded 167 MonsterDescribeDatas.
+2022-05-12T00:37:33Z - Loaded 657 RewardPreviewDatas.
+2022-05-12T00:37:33Z - Loaded 39 TowerFloorDatas.
+2022-05-12T00:37:33Z - Loaded 1 AvatarCostumeDatas.
+2022-05-12T00:37:33Z - Loaded 782 DungeonDatas.
+2022-05-12T00:37:33Z - Loaded 10 AvatarFetterLevelDatas.
+2022-05-12T00:37:33Z - Loaded 24 DailyDungeonDatas.
+2022-05-12T00:37:33Z - Loaded 3032 NpcDatas.
+2022-05-12T00:37:33Z - Loaded 66 ReliquaryMainPropDatas.
+2022-05-12T00:37:33Z - Error loading resource file: [MonsterCurveExcelConfigData.json]
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:225)
+	at com.google.gson.Gson.fromJson(Gson.java:991)
+	at com.google.gson.Gson.fromJson(Gson.java:956)
+	at com.google.gson.Gson.fromJson(Gson.java:905)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:130)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:117)
+	at emu.grasscutter.data.ResourceLoader.loadResources(ResourceLoader.java:107)
+	at emu.grasscutter.data.ResourceLoader.loadAll(ResourceLoader.java:51)
+	at emu.grasscutter.Grasscutter.main(Grasscutter.java:93)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:172)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:130)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:221)
+	... 8 common frames omitted
+2022-05-12T00:37:33Z - Loaded 717 SceneDatas.
+2022-05-12T00:37:33Z - Loaded 90 AvatarLevelDatas.
+2022-05-12T00:37:34Z - Loaded 4065 RewardDatas.
+2022-05-12T00:37:34Z - Loaded 6889 ItemDatas.
+2022-05-12T00:37:34Z - Loaded 336 AvatarPromoteDatas.
+2022-05-12T00:37:34Z - Loaded 335 ReliquaryAffixDatas.
+2022-05-12T00:37:34Z - Loaded 90 WeaponLevelDatas.
+2022-05-12T00:37:34Z - Loaded 1195 ShopGoodsDatas.
+2022-05-12T00:37:34Z - Loaded 297 CombineDatas.
+2022-05-12T00:37:34Z - Loaded 1 TowerLevelDatas.
+2022-05-12T00:37:34Z - Loaded 939 WeaponPromoteDatas.
+2022-05-12T00:37:34Z - Loaded 9 AvatarFlycloakDatas.
+2022-05-12T00:37:34Z - Loaded 6626 GadgetDatas.
+2022-05-12T00:37:34Z - Error loading resource file: [AvatarCurveExcelConfigData.json]
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:225)
+	at com.google.gson.Gson.fromJson(Gson.java:991)
+	at com.google.gson.Gson.fromJson(Gson.java:956)
+	at com.google.gson.Gson.fromJson(Gson.java:905)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:130)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:117)
+	at emu.grasscutter.data.ResourceLoader.loadResources(ResourceLoader.java:107)
+	at emu.grasscutter.data.ResourceLoader.loadAll(ResourceLoader.java:51)
+	at emu.grasscutter.Grasscutter.main(Grasscutter.java:93)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:172)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:130)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:221)
+	... 8 common frames omitted
+2022-05-12T00:37:34Z - Loaded 42 ReliquarySetDatas.
+2022-05-12T00:37:34Z - Error loading resource file: [WeaponCurveExcelConfigData.json]
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:225)
+	at com.google.gson.Gson.fromJson(Gson.java:991)
+	at com.google.gson.Gson.fromJson(Gson.java:956)
+	at com.google.gson.Gson.fromJson(Gson.java:905)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:130)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:117)
+	at emu.grasscutter.data.ResourceLoader.loadResources(ResourceLoader.java:107)
+	at emu.grasscutter.data.ResourceLoader.loadAll(ResourceLoader.java:51)
+	at emu.grasscutter.Grasscutter.main(Grasscutter.java:93)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:172)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:130)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:221)
+	... 8 common frames omitted
+2022-05-12T00:37:34Z - Loaded 744 EquipAffixDatas.
+2022-05-12T00:37:34Z - Loaded 8 WorldLevelDatas.
+2022-05-12T00:37:34Z - Loaded 60 PlayerLevelDatas.
+2022-05-12T00:37:34Z - Loaded 101 ReliquaryLevelDatas.
+2022-05-12T00:37:34Z - Loaded 2420 ProudSkillDatas.
+2022-05-12T00:37:35Z - Loaded 568 MonsterDatas.
+2022-05-12T00:37:35Z - Loaded 78 AvatarDatas.
+2022-05-12T00:37:35Z - Relic properties are missing weights! Please check your ReliquaryMainPropExcelConfigData or ReliquaryAffixExcelConfigData files in your ExcelBinOutput folder.
+2022-05-12T00:37:35Z - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-12T00:37:35Z - Opened connection [connectionId{localValue:1, serverValue:10}] to localhost:27017
+2022-05-12T00:37:35Z - Opened connection [connectionId{localValue:2, serverValue:11}] to localhost:27017
+2022-05-12T00:37:35Z - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=33432500}
+2022-05-12T00:37:35Z - Opened connection [connectionId{localValue:3, serverValue:12}] to localhost:27017
+2022-05-12T00:37:35Z - Registered 120 PacketHandlers
+2022-05-12T00:37:35Z - Banners successfully loaded.
+2022-05-12T00:37:35Z - Shop data successfully loaded.
+2022-05-12T00:37:35Z - ShopChest data successfully loaded.
+2022-05-12T00:37:35Z - ShopChestBatchUse data successfully loaded.
+2022-05-12T00:37:35Z - Using default implementation for ThreadExecutor
+2022-05-12T00:37:35Z - Job execution threads will use class loader of thread: main
+2022-05-12T00:37:35Z - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-05-12T00:37:35Z - Quartz Scheduler v.2.3.2 created.
+2022-05-12T00:37:35Z - RAMJobStore initialized.
+2022-05-12T00:37:35Z - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-05-12T00:37:35Z - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-05-12T00:37:35Z - Quartz scheduler version: 2.3.2
+2022-05-12T00:37:35Z - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-05-12T00:37:35Z - Drop data successfully loaded.
+2022-05-12T00:37:35Z - Expedition reward successfully loaded.
+2022-05-12T00:37:35Z - Logging initialized @3796ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-05-12T00:37:35Z - jetty-9.4.35.v20201120; built: 2020-11-20T21:17:03.964Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 18+37
+2022-05-12T00:37:36Z - x509=X509@12448de1(keystore_entry,h=[mydomain.com, localhost],w=[]) for Server@2b35c7aa[provider=null,keyStore=file:///E:/Grasscutter/gx/keystore.p12,trustStore=null]
+2022-05-12T00:37:36Z - Started ServerConnector@54567b05{SSL, (ssl, http/1.1)}{0.0.0.0:443}
+2022-05-12T00:37:36Z - Started @4236ms
+2022-05-12T00:37:36Z - Server listening on http://localhost:443
+2022-05-12T00:37:36Z - [Dispatch] Dispatch server started on port 443
+2022-05-12T00:37:36Z - Done! For help, type "help"
+2022-05-12T00:37:36Z - Grasscutter is FREE software. If you have paid for this, you may have been scammed. Homepage: https://github.com/Grasscutters/Grasscutter
+2022-05-12T00:37:36Z - Game Server started on port 22102
+2022-05-12T00:40:39Z - [Dispatch] Client [0:0:0:0:0:0:0:1] is trying to log in
+2022-05-12T00:40:39Z - [Dispatch] Client [0:0:0:0:0:0:0:1] logged in as 10001
+2022-05-12T00:40:40Z - [Dispatch] Client [0:0:0:0:0:0:0:1] succeed to exchange combo token
+2022-05-12T00:40:54Z - [Dispatch] Client [0:0:0:0:0:0:0:1] is trying to log in via token
+2022-05-12T00:40:54Z - [Dispatch] Client [0:0:0:0:0:0:0:1] logged in via token as 10001
+2022-05-12T00:40:54Z - [Dispatch] Client [0:0:0:0:0:0:0:1] succeed to exchange combo token
+2022-05-12T00:41:47Z - [Dispatch] Client [0:0:0:0:0:0:0:1] is trying to log in via token
+2022-05-12T00:41:47Z - [Dispatch] Client [0:0:0:0:0:0:0:1] logged in via token as 10001
+2022-05-12T00:41:47Z - [Dispatch] Client [0:0:0:0:0:0:0:1] succeed to exchange combo token
+2022-05-12T00:41:54Z - [Dispatch] Client [0:0:0:0:0:0:0:1] is trying to log in
+2022-05-12T00:41:54Z - [Dispatch] Client [0:0:0:0:0:0:0:1] logged in as 10001
+2022-05-12T00:41:54Z - [Dispatch] Client [0:0:0:0:0:0:0:1] succeed to exchange combo token
+2022-05-12T00:42:04Z - [Dispatch] Client [0:0:0:0:0:0:0:1] is trying to log in via token
+2022-05-12T00:42:04Z - [Dispatch] Client [0:0:0:0:0:0:0:1] logged in via token as 10001
+2022-05-12T00:42:04Z - [Dispatch] Client [0:0:0:0:0:0:0:1] succeed to exchange combo token
+2022-05-12T00:52:41Z - Press Ctrl-C again to shutdown.
+2022-05-12T00:52:41Z - Stopping Javalin ...
+2022-05-12T00:52:41Z - Stopped ServerConnector@54567b05{SSL, (ssl, http/1.1)}{0.0.0.0:443}
+2022-05-12T00:52:41Z - Javalin has stopped
+2022-05-12T00:52:43Z - Failed to load language file: en-PH.json, falling back to: en.json
+2022-05-12T00:52:44Z - Failed to load language file: en.json, falling back to: en-US.json
+2022-05-12T00:52:44Z - Starting Grasscutter...
+2022-05-12T00:52:44Z - Loaded 47 FetterCharacterCardDatas.
+2022-05-12T00:52:44Z - Loaded 300 AvatarTalentDatas.
+2022-05-12T00:52:44Z - Loaded 400 AvatarSkillDatas.
+2022-05-12T00:52:44Z - Loaded 4088 FetterDatas.
+2022-05-12T00:52:44Z - Loaded 73 AvatarSkillDepotDatas.
+2022-05-12T00:52:44Z - Loaded 167 MonsterDescribeDatas.
+2022-05-12T00:52:44Z - Loaded 657 RewardPreviewDatas.
+2022-05-12T00:52:44Z - Loaded 39 TowerFloorDatas.
+2022-05-12T00:52:44Z - Loaded 1 AvatarCostumeDatas.
+2022-05-12T00:52:44Z - Loaded 782 DungeonDatas.
+2022-05-12T00:52:44Z - Loaded 10 AvatarFetterLevelDatas.
+2022-05-12T00:52:44Z - Loaded 24 DailyDungeonDatas.
+2022-05-12T00:52:44Z - Loaded 3032 NpcDatas.
+2022-05-12T00:52:44Z - Loaded 66 ReliquaryMainPropDatas.
+2022-05-12T00:52:44Z - Error loading resource file: [MonsterCurveExcelConfigData.json]
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:225)
+	at com.google.gson.Gson.fromJson(Gson.java:991)
+	at com.google.gson.Gson.fromJson(Gson.java:956)
+	at com.google.gson.Gson.fromJson(Gson.java:905)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:130)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:117)
+	at emu.grasscutter.data.ResourceLoader.loadResources(ResourceLoader.java:107)
+	at emu.grasscutter.data.ResourceLoader.loadAll(ResourceLoader.java:51)
+	at emu.grasscutter.Grasscutter.main(Grasscutter.java:93)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:172)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:130)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:221)
+	... 8 common frames omitted
+2022-05-12T00:52:44Z - Loaded 717 SceneDatas.
+2022-05-12T00:52:44Z - Loaded 90 AvatarLevelDatas.
+2022-05-12T00:52:44Z - Loaded 4065 RewardDatas.
+2022-05-12T00:52:45Z - Loaded 6889 ItemDatas.
+2022-05-12T00:52:45Z - Loaded 336 AvatarPromoteDatas.
+2022-05-12T00:52:45Z - Loaded 335 ReliquaryAffixDatas.
+2022-05-12T00:52:45Z - Loaded 90 WeaponLevelDatas.
+2022-05-12T00:52:45Z - Loaded 1195 ShopGoodsDatas.
+2022-05-12T00:52:45Z - Loaded 297 CombineDatas.
+2022-05-12T00:52:45Z - Loaded 1 TowerLevelDatas.
+2022-05-12T00:52:45Z - Loaded 939 WeaponPromoteDatas.
+2022-05-12T00:52:45Z - Loaded 9 AvatarFlycloakDatas.
+2022-05-12T00:52:45Z - Loaded 6626 GadgetDatas.
+2022-05-12T00:52:45Z - Error loading resource file: [AvatarCurveExcelConfigData.json]
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:225)
+	at com.google.gson.Gson.fromJson(Gson.java:991)
+	at com.google.gson.Gson.fromJson(Gson.java:956)
+	at com.google.gson.Gson.fromJson(Gson.java:905)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:130)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:117)
+	at emu.grasscutter.data.ResourceLoader.loadResources(ResourceLoader.java:107)
+	at emu.grasscutter.data.ResourceLoader.loadAll(ResourceLoader.java:51)
+	at emu.grasscutter.Grasscutter.main(Grasscutter.java:93)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:172)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:130)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:221)
+	... 8 common frames omitted
+2022-05-12T00:52:45Z - Loaded 42 ReliquarySetDatas.
+2022-05-12T00:52:45Z - Error loading resource file: [WeaponCurveExcelConfigData.json]
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:225)
+	at com.google.gson.Gson.fromJson(Gson.java:991)
+	at com.google.gson.Gson.fromJson(Gson.java:956)
+	at com.google.gson.Gson.fromJson(Gson.java:905)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:130)
+	at emu.grasscutter.data.ResourceLoader.loadFromResource(ResourceLoader.java:117)
+	at emu.grasscutter.data.ResourceLoader.loadResources(ResourceLoader.java:107)
+	at emu.grasscutter.data.ResourceLoader.loadAll(ResourceLoader.java:51)
+	at emu.grasscutter.Grasscutter.main(Grasscutter.java:93)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 4 column 6 path $.curveInfos[0]
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:172)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:130)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:221)
+	... 8 common frames omitted
+2022-05-12T00:52:45Z - Loaded 744 EquipAffixDatas.
+2022-05-12T00:52:45Z - Loaded 8 WorldLevelDatas.
+2022-05-12T00:52:45Z - Loaded 60 PlayerLevelDatas.
+2022-05-12T00:52:45Z - Loaded 101 ReliquaryLevelDatas.
+2022-05-12T00:52:45Z - Loaded 2420 ProudSkillDatas.
+2022-05-12T00:52:45Z - Loaded 568 MonsterDatas.
+2022-05-12T00:52:45Z - Loaded 78 AvatarDatas.
+2022-05-12T00:52:45Z - Relic properties are missing weights! Please check your ReliquaryMainPropExcelConfigData or ReliquaryAffixExcelConfigData files in your ExcelBinOutput folder.
+2022-05-12T00:52:46Z - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-12T00:52:46Z - Opened connection [connectionId{localValue:1, serverValue:14}] to localhost:27017
+2022-05-12T00:52:46Z - Opened connection [connectionId{localValue:2, serverValue:13}] to localhost:27017
+2022-05-12T00:52:46Z - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=30374300}
+2022-05-12T00:52:46Z - Opened connection [connectionId{localValue:3, serverValue:15}] to localhost:27017
+2022-05-12T00:52:46Z - Registered 120 PacketHandlers
+2022-05-12T00:52:46Z - Banners successfully loaded.
+2022-05-12T00:52:46Z - Shop data successfully loaded.
+2022-05-12T00:52:46Z - ShopChest data successfully loaded.
+2022-05-12T00:52:46Z - ShopChestBatchUse data successfully loaded.
+2022-05-12T00:52:46Z - Using default implementation for ThreadExecutor
+2022-05-12T00:52:46Z - Job execution threads will use class loader of thread: main
+2022-05-12T00:52:46Z - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-05-12T00:52:46Z - Quartz Scheduler v.2.3.2 created.
+2022-05-12T00:52:46Z - RAMJobStore initialized.
+2022-05-12T00:52:46Z - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-05-12T00:52:46Z - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-05-12T00:52:46Z - Quartz scheduler version: 2.3.2
+2022-05-12T00:52:46Z - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-05-12T00:52:46Z - Drop data successfully loaded.
+2022-05-12T00:52:46Z - Expedition reward successfully loaded.
+2022-05-12T00:52:46Z - Logging initialized @3679ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-05-12T00:52:46Z - jetty-9.4.35.v20201120; built: 2020-11-20T21:17:03.964Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 18+37
+2022-05-12T00:52:46Z - x509=X509@3ae2702a(keystore_entry,h=[mydomain.com, localhost],w=[]) for Server@7d088813[provider=null,keyStore=file:///E:/Grasscutter/gx/keystore.p12,trustStore=null]
+2022-05-12T00:52:47Z - Started ServerConnector@54567b05{SSL, (ssl, http/1.1)}{0.0.0.0:443}
+2022-05-12T00:52:47Z - Started @4129ms
+2022-05-12T00:52:47Z - Server listening on http://localhost:443
+2022-05-12T00:52:47Z - [Dispatch] Dispatch server started on port 443
+2022-05-12T00:52:47Z - Done! For help, type "help"
+2022-05-12T00:52:47Z - Grasscutter is FREE software. If you have paid for this, you may have been scammed. Homepage: https://github.com/Grasscutters/Grasscutter
+2022-05-12T00:52:47Z - Game Server started on port 22102
+2022-05-12T00:55:42Z - [Dispatch] Client [0:0:0:0:0:0:0:1] request: query_region_list
+2022-05-12T00:55:45Z - [Dispatch] Client [0:0:0:0:0:0:0:1] is trying to log in
+2022-05-12T00:55:45Z - [Dispatch] Client [0:0:0:0:0:0:0:1] logged in as 10001
+2022-05-12T00:55:46Z - [Dispatch] Client [0:0:0:0:0:0:0:1] succeed to exchange combo token
+2022-05-12T00:55:46Z - Client 127.0.0.1 request: query_cur_region/os_usa
+2022-05-12T00:57:55Z - Client connected from 127.0.0.1
+2022-05-12T01:00:58Z - Client disconnected from 127.0.0.1
+2022-05-12T01:00:59Z - [Dispatch] Client [0:0:0:0:0:0:0:1] is trying to log in via token
+2022-05-12T01:00:59Z - [Dispatch] Client [0:0:0:0:0:0:0:1] logged in via token as 10001
+2022-05-12T01:00:59Z - [Dispatch] Client [0:0:0:0:0:0:0:1] succeed to exchange combo token
+2022-05-12T01:00:59Z - Client 127.0.0.1 request: query_cur_region/os_usa
+2022-05-12T01:01:24Z - Press Ctrl-C again to shutdown.
+2022-05-12T01:02:57Z - Client connected from 127.0.0.1
+2022-05-12T01:03:20Z - Client disconnected from 127.0.0.1
+2022-05-12T01:03:34Z - Stopping Javalin ...
+2022-05-12T01:03:34Z - Stopped ServerConnector@54567b05{SSL, (ssl, http/1.1)}{0.0.0.0:443}
+2022-05-12T01:03:34Z - Javalin has stopped
+2022-05-12T01:13:50Z - Failed to load language file: en-PH.json, falling back to: en.json
+2022-05-12T01:13:50Z - Failed to load language file: en.json, falling back to: en-US.json
+2022-05-12T01:13:50Z - Starting Grasscutter...
+2022-05-12T01:13:51Z - Loaded 47 FetterCharacterCardDatas.
+2022-05-12T01:13:51Z - Loaded 300 AvatarTalentDatas.
+2022-05-12T01:13:51Z - Loaded 400 AvatarSkillDatas.
+2022-05-12T01:13:52Z - Loaded 4088 FetterDatas.
+2022-05-12T01:13:52Z - Loaded 73 AvatarSkillDepotDatas.
+2022-05-12T01:13:52Z - Loaded 167 MonsterDescribeDatas.
+2022-05-12T01:13:53Z - Loaded 657 RewardPreviewDatas.
+2022-05-12T01:13:53Z - Loaded 39 TowerFloorDatas.
+2022-05-12T01:13:53Z - Loaded 57 AvatarCostumeDatas.
+2022-05-12T01:13:53Z - Loaded 782 DungeonDatas.
+2022-05-12T01:13:53Z - Loaded 10 AvatarFetterLevelDatas.
+2022-05-12T01:13:53Z - Loaded 24 DailyDungeonDatas.
+2022-05-12T01:13:54Z - Loaded 3032 NpcDatas.
+2022-05-12T01:13:54Z - Loaded 66 ReliquaryMainPropDatas.
+2022-05-12T01:13:54Z - Loaded 200 MonsterCurveDatas.
+2022-05-12T01:13:54Z - Loaded 717 SceneDatas.
+2022-05-12T01:13:54Z - Loaded 90 AvatarLevelDatas.
+2022-05-12T01:13:54Z - Loaded 4065 RewardDatas.
+2022-05-12T01:13:56Z - Loaded 6889 ItemDatas.
+2022-05-12T01:13:56Z - Loaded 336 AvatarPromoteDatas.
+2022-05-12T01:13:56Z - Loaded 335 ReliquaryAffixDatas.
+2022-05-12T01:13:56Z - Loaded 90 WeaponLevelDatas.
+2022-05-12T01:13:57Z - Loaded 1195 ShopGoodsDatas.
+2022-05-12T01:13:57Z - Loaded 297 CombineDatas.
+2022-05-12T01:13:57Z - Loaded 117 TowerLevelDatas.
+2022-05-12T01:13:57Z - Loaded 939 WeaponPromoteDatas.
+2022-05-12T01:13:57Z - Loaded 9 AvatarFlycloakDatas.
+2022-05-12T01:13:58Z - Loaded 6626 GadgetDatas.
+2022-05-12T01:13:58Z - Loaded 100 AvatarCurveDatas.
+2022-05-12T01:13:58Z - Loaded 42 ReliquarySetDatas.
+2022-05-12T01:13:58Z - Loaded 100 WeaponCurveDatas.
+2022-05-12T01:13:58Z - Loaded 744 EquipAffixDatas.
+2022-05-12T01:13:58Z - Loaded 8 WorldLevelDatas.
+2022-05-12T01:13:58Z - Loaded 60 PlayerLevelDatas.
+2022-05-12T01:13:58Z - Loaded 101 ReliquaryLevelDatas.
+2022-05-12T01:13:59Z - Loaded 2420 ProudSkillDatas.
+2022-05-12T01:13:59Z - Loaded 568 MonsterDatas.
+2022-05-12T01:13:59Z - Loaded 78 AvatarDatas.
+2022-05-12T01:14:00Z - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-12T01:14:01Z - Opened connection [connectionId{localValue:1, serverValue:16}] to localhost:27017
+2022-05-12T01:14:01Z - Opened connection [connectionId{localValue:2, serverValue:17}] to localhost:27017
+2022-05-12T01:14:01Z - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=47651600}
+2022-05-12T01:14:01Z - Opened connection [connectionId{localValue:3, serverValue:18}] to localhost:27017
+2022-05-12T01:14:01Z - Registered 120 PacketHandlers
+2022-05-12T01:14:01Z - Banners successfully loaded.
+2022-05-12T01:14:01Z - Shop data successfully loaded.
+2022-05-12T01:14:01Z - ShopChest data successfully loaded.
+2022-05-12T01:14:01Z - ShopChestBatchUse data successfully loaded.
+2022-05-12T01:14:01Z - Using default implementation for ThreadExecutor
+2022-05-12T01:14:01Z - Job execution threads will use class loader of thread: main
+2022-05-12T01:14:01Z - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-05-12T01:14:01Z - Quartz Scheduler v.2.3.2 created.
+2022-05-12T01:14:01Z - RAMJobStore initialized.
+2022-05-12T01:14:01Z - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-05-12T01:14:01Z - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-05-12T01:14:01Z - Quartz scheduler version: 2.3.2
+2022-05-12T01:14:01Z - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-05-12T01:14:01Z - Drop data successfully loaded.
+2022-05-12T01:14:01Z - Expedition reward successfully loaded.
+2022-05-12T01:14:01Z - Logging initialized @13682ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-05-12T01:14:01Z - jetty-9.4.35.v20201120; built: 2020-11-20T21:17:03.964Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 18+37
+2022-05-12T01:14:02Z - x509=X509@2e349cf2(keystore_entry,h=[mydomain.com, localhost],w=[]) for Server@3dbb3fb7[provider=null,keyStore=file:///E:/Grasscutter/gx/keystore.p12,trustStore=null]
+2022-05-12T01:14:02Z - Started ServerConnector@68d6f48e{SSL, (ssl, http/1.1)}{0.0.0.0:443}
+2022-05-12T01:14:02Z - Started @14486ms
+2022-05-12T01:14:02Z - Server listening on http://localhost:443
+2022-05-12T01:14:02Z - [Dispatch] Dispatch server started on port 443
+2022-05-12T01:14:02Z - Done! For help, type "help"
+2022-05-12T01:14:02Z - [Dispatch] Client [0:0:0:0:0:0:0:1] is trying to log in via token
+2022-05-12T01:14:02Z - [Dispatch] Client [0:0:0:0:0:0:0:1] logged in via token as 10001
+2022-05-12T01:14:02Z - Grasscutter is FREE software. If you have paid for this, you may have been scammed. Homepage: https://github.com/Grasscutters/Grasscutter
+2022-05-12T01:14:02Z - Game Server started on port 22102
+2022-05-12T01:14:03Z - [Dispatch] Client [0:0:0:0:0:0:0:1] succeed to exchange combo token
+2022-05-12T01:14:20Z - Account created with UID 0.
+2022-05-12T01:14:34Z - [Dispatch] Client [0:0:0:0:0:0:0:1] is trying to log in via token
+2022-05-12T01:14:34Z - [Dispatch] Client [0:0:0:0:0:0:0:1] logged in via token as 10001
+2022-05-12T01:14:34Z - [Dispatch] Client [0:0:0:0:0:0:0:1] succeed to exchange combo token
+2022-05-12T01:14:43Z - [Dispatch] Client [0:0:0:0:0:0:0:1] is trying to log in
+2022-05-12T01:14:43Z - [Dispatch] Client [0:0:0:0:0:0:0:1] logged in as 10002
+2022-05-12T01:14:43Z - [Dispatch] Client [0:0:0:0:0:0:0:1] succeed to exchange combo token
+2022-05-12T01:14:55Z - [Dispatch] Client [0:0:0:0:0:0:0:1] is trying to log in via token
+2022-05-12T01:14:55Z - [Dispatch] Client [0:0:0:0:0:0:0:1] logged in via token as 10002
+2022-05-12T01:14:55Z - [Dispatch] Client [0:0:0:0:0:0:0:1] succeed to exchange combo token
+2022-05-12T01:15:34Z - [Dispatch] Client [0:0:0:0:0:0:0:1] request: query_region_list
+2022-05-12T01:15:34Z - [Dispatch] Client [0:0:0:0:0:0:0:1] is trying to log in via token
+2022-05-12T01:15:34Z - [Dispatch] Client [0:0:0:0:0:0:0:1] logged in via token as 10002
+2022-05-12T01:15:34Z - [Dispatch] Client [0:0:0:0:0:0:0:1] succeed to exchange combo token
+2022-05-12T01:15:35Z - Client 127.0.0.1 request: query_cur_region/os_usa
+2022-05-12T01:15:43Z - Client connected from 127.0.0.1
+2022-05-12T01:17:49Z - LEAK: ByteBuf.release() was not called before it's garbage-collected. See https://netty.io/wiki/reference-counted-objects.html for more information.
+Recent access records: 
+Created at:
+	io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:402)
+	io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:188)
+	io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:179)
+	io.netty.buffer.AbstractByteBufAllocator.ioBuffer(AbstractByteBufAllocator.java:140)
+	io.jpower.kcp.netty.UkcpServerChannel$UkcpServerUnsafe.read(UkcpServerChannel.java:600)
+	io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	java.base/java.lang.Thread.run(Thread.java:833)
+2022-05-12T01:18:22Z - Client disconnected from 127.0.0.1
+2022-05-12T01:20:42Z - [Dispatch] Client [0:0:0:0:0:0:0:1] request: query_region_list
+2022-05-12T01:20:43Z - [Dispatch] Client [0:0:0:0:0:0:0:1] is trying to log in via token
+2022-05-12T01:20:43Z - [Dispatch] Client [0:0:0:0:0:0:0:1] logged in via token as 10002
+2022-05-12T01:20:43Z - [Dispatch] Client [0:0:0:0:0:0:0:1] succeed to exchange combo token
+2022-05-12T01:20:43Z - Client 127.0.0.1 request: query_cur_region/os_usa
+2022-05-12T01:20:57Z - Client connected from 127.0.0.1
+2022-05-12T01:23:52Z - Unknown command: /say
+2022-05-12T01:23:55Z - This command requires a target UID. Add a <@UID> argument or set a persistent target with /target @UID.
+2022-05-12T01:24:00Z - This command requires a target UID. Add a <@UID> argument or set a persistent target with /target @UID.
+2022-05-12T01:24:10Z - This command requires a target UID. Add a <@UID> argument or set a persistent target with /target @UID.
+2022-05-12T01:24:39Z - This command requires a target UID. Add a <@UID> argument or set a persistent target with /target @UID.
+2022-05-12T01:24:50Z - Unknown command: /target
+2022-05-12T01:25:21Z - Message sent.
+2022-05-12T01:25:32Z - Message sent.
+2022-05-12T01:25:39Z - Message sent.
+2022-05-12T01:25:47Z - Message sent.
+2022-05-12T01:30:09Z - Unknown command: godmod
+2022-05-12T01:30:18Z - This command requires a target UID. Add a <@UID> argument or set a persistent target with /target @UID.
+2022-05-12T01:30:56Z - This command requires a target UID. Add a <@UID> argument or set a persistent target with /target @UID.
+2022-05-12T01:31:06Z - This command requires a target UID. Add a <@UID> argument or set a persistent target with /target @UID.
+2022-05-12T01:36:24Z - Client disconnected from 127.0.0.1
+2022-05-12T01:36:26Z - [Dispatch] Client [0:0:0:0:0:0:0:1] is trying to log in via token
+2022-05-12T01:36:26Z - [Dispatch] Client [0:0:0:0:0:0:0:1] logged in via token as 10002
+2022-05-12T01:36:26Z - [Dispatch] Client [0:0:0:0:0:0:0:1] succeed to exchange combo token
+2022-05-12T01:36:26Z - Client 127.0.0.1 request: query_cur_region/os_usa
+2022-05-12T01:36:39Z - [Dispatch] Client [0:0:0:0:0:0:0:1] is trying to log in
+2022-05-12T01:36:39Z - [Dispatch] Client [0:0:0:0:0:0:0:1] logged in as 10002
+2022-05-12T01:36:39Z - [Dispatch] Client [0:0:0:0:0:0:0:1] succeed to exchange combo token
+2022-05-12T01:36:39Z - Client 127.0.0.1 request: query_cur_region/os_usa
+2022-05-12T01:36:47Z - Client connected from 127.0.0.1
+2022-05-12T01:40:16Z - 3d3n is trying to enter dungeon 2004
+2022-05-12T01:40:16Z - Loaded ./resources/Scripts/Scene/20020/scene20020.lua
+2022-05-12T01:40:16Z - Loaded ./resources/Scripts/Scene/20020/scene20020_block20020.lua
+2022-05-12T01:40:17Z - Loaded ./resources/Scripts/Scene/20020/scene20020_group220020001.lua
+2022-05-12T01:49:40Z - Failed to load language file: en-PH.json, falling back to: en.json
+2022-05-12T01:49:40Z - Failed to load language file: en.json, falling back to: en-US.json
+2022-05-12T01:49:40Z - Banners successfully loaded.
+2022-05-12T01:49:40Z - Drop data successfully loaded.
+2022-05-12T01:49:40Z - Shop data successfully loaded.
+2022-05-12T01:49:40Z - ShopChest data successfully loaded.
+2022-05-12T01:49:40Z - ShopChestBatchUse data successfully loaded.
+2022-05-12T01:50:45Z - Failed to load language file: en-PH.json, falling back to: en.json
+2022-05-12T01:50:45Z - Failed to load language file: en.json, falling back to: en-US.json
+2022-05-12T01:50:45Z - Banners successfully loaded.
+2022-05-12T01:50:45Z - Drop data successfully loaded.
+2022-05-12T01:50:45Z - Shop data successfully loaded.
+2022-05-12T01:50:45Z - ShopChest data successfully loaded.
+2022-05-12T01:50:45Z - ShopChestBatchUse data successfully loaded.
+2022-05-12T01:57:25Z - Failed to load language file: en-PH.json, falling back to: en.json
+2022-05-12T01:57:25Z - Failed to load language file: en.json, falling back to: en-US.json
+2022-05-12T01:57:25Z - Banners successfully loaded.
+2022-05-12T01:57:25Z - Drop data successfully loaded.
+2022-05-12T01:57:25Z - Shop data successfully loaded.
+2022-05-12T01:57:25Z - ShopChest data successfully loaded.
+2022-05-12T01:57:25Z - ShopChestBatchUse data successfully loaded.
+2022-05-12T02:02:40Z - Message sent.
+2022-05-12T02:02:49Z - Message sent.
+2022-05-12T02:06:59Z - Failed to load language file: en-PH.json, falling back to: en.json
+2022-05-12T02:06:59Z - Failed to load language file: en.json, falling back to: en-US.json
+2022-05-12T02:06:59Z - Banners successfully loaded.
+2022-05-12T02:06:59Z - Drop data successfully loaded.
+2022-05-12T02:06:59Z - Shop data successfully loaded.
+2022-05-12T02:06:59Z - ShopChest data successfully loaded.
+2022-05-12T02:06:59Z - ShopChestBatchUse data successfully loaded.
+2022-05-12T02:08:11Z - Failed to load language file: en-PH.json, falling back to: en.json
+2022-05-12T02:08:11Z - Failed to load language file: en.json, falling back to: en-US.json
+2022-05-12T02:08:11Z - Banners successfully loaded.
+2022-05-12T02:08:11Z - Drop data successfully loaded.
+2022-05-12T02:08:11Z - Shop data successfully loaded.
+2022-05-12T02:08:11Z - ShopChest data successfully loaded.
+2022-05-12T02:08:11Z - ShopChestBatchUse data successfully loaded.
+2022-05-12T02:09:44Z - Client disconnected from 127.0.0.1
+2022-05-12T02:09:45Z - [Dispatch] Client [0:0:0:0:0:0:0:1] is trying to log in via token
+2022-05-12T02:09:45Z - [Dispatch] Client [0:0:0:0:0:0:0:1] logged in via token as 10002
+2022-05-12T02:09:45Z - [Dispatch] Client [0:0:0:0:0:0:0:1] succeed to exchange combo token
+2022-05-12T02:09:45Z - Client 127.0.0.1 request: query_cur_region/os_usa
+2022-05-12T02:09:54Z - Client connected from 127.0.0.1
+2022-05-12T02:11:50Z - Failed to load language file: en-PH.json, falling back to: en.json
+2022-05-12T02:11:50Z - Failed to load language file: en.json, falling back to: en-US.json
+2022-05-12T02:11:50Z - Banners successfully loaded.
+2022-05-12T02:11:50Z - Drop data successfully loaded.
+2022-05-12T02:11:50Z - Shop data successfully loaded.
+2022-05-12T02:11:50Z - ShopChest data successfully loaded.
+2022-05-12T02:11:50Z - ShopChestBatchUse data successfully loaded.
+2022-05-12T02:13:28Z - Failed to load language file: en-PH.json, falling back to: en.json
+2022-05-12T02:13:28Z - Failed to load language file: en.json, falling back to: en-US.json
+2022-05-12T02:13:28Z - Banners successfully loaded.
+2022-05-12T02:13:28Z - Drop data successfully loaded.
+2022-05-12T02:13:28Z - Shop data successfully loaded.
+2022-05-12T02:13:28Z - ShopChest data successfully loaded.
+2022-05-12T02:13:28Z - ShopChestBatchUse data successfully loaded.
+2022-05-12T02:14:31Z - Client disconnected from 127.0.0.1
+2022-05-12T11:02:33Z - Failed to load language file: en-PH.json, falling back to: en.json
+2022-05-12T11:02:33Z - Failed to load language file: en.json, falling back to: en-US.json
+2022-05-12T11:02:33Z - Starting Grasscutter...
+2022-05-12T11:02:34Z - Loaded 47 FetterCharacterCardDatas.
+2022-05-12T11:02:34Z - Loaded 300 AvatarTalentDatas.
+2022-05-12T11:02:34Z - Loaded 400 AvatarSkillDatas.
+2022-05-12T11:02:35Z - Loaded 4088 FetterDatas.
+2022-05-12T11:02:35Z - Loaded 73 AvatarSkillDepotDatas.
+2022-05-12T11:02:35Z - Loaded 167 MonsterDescribeDatas.
+2022-05-12T11:02:35Z - Loaded 657 RewardPreviewDatas.
+2022-05-12T11:02:35Z - Loaded 39 TowerFloorDatas.
+2022-05-12T11:02:35Z - Loaded 57 AvatarCostumeDatas.
+2022-05-12T11:02:36Z - Loaded 782 DungeonDatas.
+2022-05-12T11:02:36Z - Loaded 10 AvatarFetterLevelDatas.
+2022-05-12T11:02:36Z - Loaded 24 DailyDungeonDatas.
+2022-05-12T11:02:37Z - Loaded 3032 NpcDatas.
+2022-05-12T11:02:37Z - Loaded 66 ReliquaryMainPropDatas.
+2022-05-12T11:02:37Z - Loaded 200 MonsterCurveDatas.
+2022-05-12T11:02:37Z - Loaded 717 SceneDatas.
+2022-05-12T11:02:37Z - Loaded 90 AvatarLevelDatas.
+2022-05-12T11:02:37Z - Loaded 4065 RewardDatas.
+2022-05-12T11:02:39Z - Loaded 6889 ItemDatas.
+2022-05-12T11:02:39Z - Loaded 336 AvatarPromoteDatas.
+2022-05-12T11:02:39Z - Loaded 335 ReliquaryAffixDatas.
+2022-05-12T11:02:39Z - Loaded 90 WeaponLevelDatas.
+2022-05-12T11:02:40Z - Loaded 1195 ShopGoodsDatas.
+2022-05-12T11:02:40Z - Loaded 297 CombineDatas.
+2022-05-12T11:02:40Z - Loaded 117 TowerLevelDatas.
+2022-05-12T11:02:40Z - Loaded 939 WeaponPromoteDatas.
+2022-05-12T11:02:40Z - Loaded 9 AvatarFlycloakDatas.
+2022-05-12T11:02:41Z - Loaded 6626 GadgetDatas.
+2022-05-12T11:02:41Z - Loaded 100 AvatarCurveDatas.
+2022-05-12T11:02:41Z - Loaded 42 ReliquarySetDatas.
+2022-05-12T11:02:41Z - Loaded 100 WeaponCurveDatas.
+2022-05-12T11:02:41Z - Loaded 744 EquipAffixDatas.
+2022-05-12T11:02:41Z - Loaded 8 WorldLevelDatas.
+2022-05-12T11:02:41Z - Loaded 60 PlayerLevelDatas.
+2022-05-12T11:02:42Z - Loaded 101 ReliquaryLevelDatas.
+2022-05-12T11:02:42Z - Loaded 2420 ProudSkillDatas.
+2022-05-12T11:02:43Z - Loaded 568 MonsterDatas.
+2022-05-12T11:02:43Z - Loaded 78 AvatarDatas.
+2022-05-12T11:02:45Z - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-12T11:02:45Z - Cluster description not yet available. Waiting for 30000 ms before timing out
+2022-05-12T11:02:45Z - Opened connection [connectionId{localValue:1, serverValue:2}] to localhost:27017
+2022-05-12T11:02:45Z - Opened connection [connectionId{localValue:2, serverValue:1}] to localhost:27017
+2022-05-12T11:02:45Z - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=104293800}
+2022-05-12T11:02:45Z - Opened connection [connectionId{localValue:3, serverValue:3}] to localhost:27017
+2022-05-12T11:02:45Z - Registered 120 PacketHandlers
+2022-05-12T11:02:45Z - Banners successfully loaded.
+2022-05-12T11:02:45Z - Shop data successfully loaded.
+2022-05-12T11:02:45Z - ShopChest data successfully loaded.
+2022-05-12T11:02:45Z - ShopChestBatchUse data successfully loaded.
+2022-05-12T11:02:46Z - Using default implementation for ThreadExecutor
+2022-05-12T11:02:46Z - Job execution threads will use class loader of thread: main
+2022-05-12T11:02:46Z - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-05-12T11:02:46Z - Quartz Scheduler v.2.3.2 created.
+2022-05-12T11:02:46Z - RAMJobStore initialized.
+2022-05-12T11:02:46Z - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-05-12T11:02:46Z - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2022-05-12T11:02:46Z - Quartz scheduler version: 2.3.2
+2022-05-12T11:02:46Z - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-05-12T11:02:47Z - Drop data successfully loaded.
+2022-05-12T11:02:47Z - Expedition reward successfully loaded.
+2022-05-12T11:02:47Z - Logging initialized @15727ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-05-12T11:02:47Z - jetty-9.4.35.v20201120; built: 2020-11-20T21:17:03.964Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 18+37
+2022-05-12T11:02:47Z - x509=X509@7de6549d(keystore_entry,h=[mydomain.com, localhost],w=[]) for Server@12214f2f[provider=null,keyStore=file:///E:/Grasscutter/gx/keystore.p12,trustStore=null]
+2022-05-12T11:02:48Z - Started ServerConnector@6d421fe{SSL, (ssl, http/1.1)}{0.0.0.0:443}
+2022-05-12T11:02:48Z - Started @16572ms
+2022-05-12T11:02:48Z - Server listening on http://localhost:443
+2022-05-12T11:02:48Z - [Dispatch] Dispatch server started on port 443
+2022-05-12T11:02:48Z - Done! For help, type "help"
+2022-05-12T11:02:48Z - Grasscutter is FREE software. If you have paid for this, you may have been scammed. Homepage: https://github.com/Grasscutters/Grasscutter
+2022-05-12T11:02:48Z - Game Server started on port 22102
+2022-05-12T11:02:55Z - [Dispatch] Client [0:0:0:0:0:0:0:1] is trying to log in
+2022-05-12T11:02:56Z - [Dispatch] Client [0:0:0:0:0:0:0:1] logged in as 10002
+2022-05-12T11:02:56Z - [Dispatch] Client [0:0:0:0:0:0:0:1] succeed to exchange combo token
+2022-05-12T11:03:06Z - [Dispatch] Client [0:0:0:0:0:0:0:1] is trying to log in via token
+2022-05-12T11:03:06Z - [Dispatch] Client [0:0:0:0:0:0:0:1] logged in via token as 10002
+2022-05-12T11:03:06Z - [Dispatch] Client [0:0:0:0:0:0:0:1] succeed to exchange combo token
+2022-05-12T11:03:18Z - [Dispatch] Client [0:0:0:0:0:0:0:1] is trying to log in via token
+2022-05-12T11:03:18Z - [Dispatch] Client [0:0:0:0:0:0:0:1] logged in via token as 10002
+2022-05-12T11:03:19Z - [Dispatch] Client [0:0:0:0:0:0:0:1] succeed to exchange combo token
+2022-05-12T11:03:28Z - [Dispatch] Client [0:0:0:0:0:0:0:1] is trying to log in via token
+2022-05-12T11:03:28Z - [Dispatch] Client [0:0:0:0:0:0:0:1] logged in via token as 10002
+2022-05-12T11:03:28Z - [Dispatch] Client [0:0:0:0:0:0:0:1] succeed to exchange combo token
+2022-05-12T11:04:14Z - [Dispatch] Client [0:0:0:0:0:0:0:1] request: query_region_list
+2022-05-12T11:04:14Z - [Dispatch] Client [0:0:0:0:0:0:0:1] is trying to log in via token
+2022-05-12T11:04:14Z - [Dispatch] Client [0:0:0:0:0:0:0:1] logged in via token as 10002
+2022-05-12T11:04:14Z - [Dispatch] Client [0:0:0:0:0:0:0:1] succeed to exchange combo token
+2022-05-12T11:04:15Z - Client 127.0.0.1 request: query_cur_region/os_usa
+2022-05-12T11:04:26Z - Client connected from 127.0.0.1
+2022-05-12T11:06:50Z - Client disconnected from 127.0.0.1
